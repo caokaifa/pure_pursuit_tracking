@@ -82,7 +82,6 @@ class PurePursuit{
 			tf.setRotation(q_tf);
 			tf = tf.inverse();  // transform points in map frame to car frame
 
-			cout<<
 
 			if(_first_time_run){
                 _end_of_waypoints =false;
